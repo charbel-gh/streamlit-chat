@@ -3,14 +3,11 @@ import requests
 import json
 import time
 import os
-from PIL import Image
 
-#image = Image.open('C:/openAI/azure-open-ai-embeddings-qna-1/code/images/logo_100_100.png')
 
 st.set_page_config(layout="wide")
 col1, col2, col3 = st.columns([1,12,1])
 with col1:
-    #st.image(image)
 st.title('Oman services chatbot')
 
 url = "https://funcappccitest.azurewebsites.net/api/BotQnAHTTPFunc"
