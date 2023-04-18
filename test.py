@@ -9,7 +9,7 @@ from PIL import Image
 
 st.set_page_config(layout="wide")
 col1, col2, col3 = st.columns([1,12,1])
-with col1:
+
 st.title('Oman services chatbot')
 
 url = "https://funcappccitest.azurewebsites.net/api/BotQnAHTTPFunc"
